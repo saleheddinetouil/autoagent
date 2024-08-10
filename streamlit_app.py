@@ -1,10 +1,4 @@
-import sys
-try:
-    from autogen import AssistantAgent, UserProxyAgent, config_list_from_json
-except ImportError:
-    #  pip    install      git+https://github.com/microsoft/autogen.git@gemini
-    #  pip    install      git+https://github.com/microsoft/autogen.git@gemini-vision
-    sys.process.exec([sys.executable, "-m", "pip", "install", "autogen"])
+from autogen import AssistantAgent, UserProxyAgent, config_list_from_json
 import streamlit as st
 import os
 
