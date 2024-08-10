@@ -1,2 +1,2 @@
 streamlit
-autogen
+git+https://github.com/microsoft/autogen.git@gemini
